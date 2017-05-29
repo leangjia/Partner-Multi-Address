@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="partner_multi_address_form_view">
+            <field name="name">partner_multi_address.partner_multi_address</field>
+            <field name="type">form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <field name="title" position="after">
+                    <field name="Address2"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>
